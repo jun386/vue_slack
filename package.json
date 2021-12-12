@@ -7,13 +7,14 @@
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "4.3.0",
     "turbolinks": "^5.2.0",
-    "vue": "^3.2.23",
+    "vue": "^3.2.24",
     "webpack-dev-server": "3.11.2"
   },
   "version": "0.1.0",
   "devDependencies": {
-    "@vue/compiler-sfc": "^3.2.23",
+    "@vue/compiler-sfc": "^3.2.24",
     "@webpack-cli/serve": "^1.6.0",
+    "axios": "^0.24.0",
     "vue-loader": "^16.8.3"
   }
 }
