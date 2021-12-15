@@ -9,9 +9,7 @@
           <messages />
         </div>
         <div class="input-layout">
-          <div class="input-container">
-            <textarea></textarea>
-          </div>
+          <chat-form />
         </div>
       </div>
     </div>
@@ -21,11 +19,13 @@
 <script>
 import Sidebar from '../Sidebar.vue'
 import Messages from '../messages/Messages.vue'
+import ChatForm from '../messages/ChatForm.vue'
 
 export default {
   components: {
     Sidebar,
-    Messages
+    Messages,
+    ChatForm
   }
 }
 </script>
@@ -53,16 +53,6 @@ export default {
 
 .input-layout {
   height: 10%;
-}
-
-.input-container {
-  padding: 10px;
-  height: 100%;
-}
-
-textarea {
-  width: 100%;
-  height: 100%;
 }
 
 </style>
