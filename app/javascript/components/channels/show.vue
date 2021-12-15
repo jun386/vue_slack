@@ -1,10 +1,7 @@
 <template>
   <div class="app-layout">
-    <div class="sidebar">
-      <p>チャンネル一覧</p>
-      <p>#general</p>
-      <p>#random</p>
-      <p>#random</p>
+    <div class="sidebar-container">
+      <sidebar />
     </div>
     <div class="main-content">
       <div class="container">
@@ -34,22 +31,20 @@
   </div>
 </template>
 
+<script>
+import Sidebar from '../Sidebar.vue'
+
+export default {
+  components: {
+    Sidebar
+  }
+}
+</script>
+
 <style>
 
 .app-layout {
   display: flex;
-}
-
-.sidebar {
-  width: 300px;
-  background: #4A4141;
-  height: 100vh;
-  padding: 20px;
-}
-
-.sidebar p {
-  color: #DDDDDD;
-  padding-top: 4px;
 }
 
 .main-content {
